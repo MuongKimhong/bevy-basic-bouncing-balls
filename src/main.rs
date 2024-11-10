@@ -8,9 +8,6 @@ use bevy::diagnostic::FrameTimeDiagnosticsPlugin;
 use bevy::prelude::*;
 use bevy_rapier2d::prelude::*;
 
-#[derive(Component)]
-struct FpsText;
-
 fn camera_2d_bundle() -> Camera2dBundle {
     Camera2dBundle {
         camera: Camera {
